@@ -1,16 +1,19 @@
 # PROJECT-II_TEAM-44
 # Osteo Synergy – An Automated Bone Fracture Detection System using Deep Learning & Azure ML Studio
+
       Osteo Synergy aims to enhance medical imaging diagnostics by integrating a deep learning-based system for automated bone fracture detection. Utilizing Azure ML Studio, this project focuses on improving the accuracy and speed of fracture diagnosis, thereby streamlining patient care and reducing the burden on healthcare professionals.
 # About
       The Osteo Synergy project integrates advanced deep learning algorithms to develop a bone fracture detection system using medical imaging data. Traditional fracture diagnosis involves manual inspection by radiologists, which can be time-consuming and prone to human error. This project addresses these challenges by implementing a neural network model that automates the identification and classification of bone fractures, ensuring quick and precise diagnostic results.
 # Features
+```
   1)Implements advanced Residual Neural Network (ResNet) architecture.
   2)Designed for seamless integration with Azure ML Studio.
   3)High accuracy and reliability.
   4)Rapid processing time for real-time diagnosis.
   5)Comprehensive model training using diverse medical imaging datasets.
-
+```
 # Requirements
+```
   1)Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) compatible with deep learning frameworks.
   2)Development Environment: Python 3.6 or later for coding and implementation.
   3)Deep Learning Frameworks: TensorFlow for model training.
@@ -18,6 +21,7 @@
   5)Version Control: Git for collaborative development.
   6)IDE: VSCode for coding, debugging, and version control.
   7)Additional Dependencies: Includes TensorFlow (version 2.4.1), TensorFlow GPU, OpenCV, and other relevant libraries.
+```
 # System Architecture
 ![image](https://github.com/user-attachments/assets/d07953e2-2f52-4115-a610-505189ec98d4)
 # Implementation
