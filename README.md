@@ -21,7 +21,7 @@
 # System Architecture
 ![image](https://github.com/user-attachments/assets/d07953e2-2f52-4115-a610-505189ec98d4)
 # Implementation
-``
+```
 import os 
 import random as rnd import matplotlib.pyplot as plt import tensorflow as tf 
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, load_img from tensorflow.keras.optimizers import Adam from tensorflow import keras from tensorflow.keras import layers from tensorflow.keras import utils from tensorflow.keras import models from tensorflow.keras.layers import Conv2D from tensorflow.keras.layers import MaxPool2D from tensorflow.keras.layers import Dense from keras import Sequential 
@@ -133,7 +133,7 @@ prediction = model.predict(image_array)
 # Display the image plt.imshow(image) 
 plt.axis('off') 
 plt.title(f"Actual Class: {random_category.capitalize()}\nPredicted Class: {'Fractured' if prediction[0][0] > 0.4 else 'Not Fractured'}") plt.show() 
-``
+```
 
 # Output
 Detection report with fracture classification.
